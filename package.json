@@ -3,14 +3,12 @@
   "description": "Webcomponent convgame-object following open-wc recommendations",
   "license": "Apache-2.0",
   "author": "manufosela",
-  "version": "1.0.0",
-  "type": "module",
+  "version": "1.0.1",
   "main": "convgame-object.js",
-  "module": "index.js",
-  "exports": {
-    ".": "./index.js",
-    "./convgame-object.js": "./convgame-object.js"
-  },
+  "keywords": [
+    "webcomponent",
+    "lit"
+  ],
   "scripts": {
     "analyze": "cem analyze --litelement",
     "start": "web-dev-server",
